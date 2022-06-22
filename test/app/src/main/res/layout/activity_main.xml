@@ -7,12 +7,32 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="176dp"
+        android:layout_marginEnd="178dp"
+        android:text="Легкое задание"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        tools:layout_editor_absoluteY="214dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="412dp"
+        android:layout_height="603dp"
+        android:rotationX="29"
+        app:srcCompat="@drawable/ic_launcher_background"
+        tools:layout_editor_absoluteX="-1dp"
+        tools:layout_editor_absoluteY="112dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="459dp"
+        android:layout_height="500dp"
+        app:srcCompat="@color/purple_700"
+        tools:layout_editor_absoluteX="-22dp"
+        tools:layout_editor_absoluteY="-8dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
